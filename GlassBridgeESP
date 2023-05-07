@@ -1,15 +1,3 @@
---[[
-
-GAME: https://www.roblox.com/games/7952502098/Impossible-Glass-Bridge-Obby-Squid-Game#ropro-quick-play
-
-How It Works: All the glasses that you step on are in the GlassPane folder
-So the script checks all the Glass parts and whatever has CanCollide set to
-False, gets set to a Red color and if its true it gets set to green.
-
-                    Randy#0002
-
-]]
-
 local GlassPane = game.Workspace["Glass Bridge"].GlassPane
 
 for _, Glass in ipairs(GlassPane:GetChildren()) do
